@@ -1,0 +1,57 @@
+﻿body{font-family:Roboto, sans-serif}
+#header_div .container{padding:10px 0;}
+.floatLeft{float:left;}
+.bold{font-weight:bold;}
+.icon-div{width:15%;}
+.contact-div{width:85%}
+.contact-block__inner{width:80%;margin:0 auto;}
+.contact-block__item{width:33%;color:#000;font-size:18px;}
+.contact-block__item p {margin:3px 0;}
+.my-row{width:100%;}
+.my-quarter{width:25%;}
+.my-half{width:50%;}
+.container{width:100%;}
+.contact-block__icon{font-size:2em;margin-right:9px;}
+.icon_img{padding:20px;}
+i.contact-block__icon{color:#24a3d8;margin:5px 10px 0 0;}
+#team{margin-top:20px;}
+.tiles-row{width:90%;margin: 0 auto;padding-top:10px;}
+.tile{width:25%;float:left;min-height:240px;}
+.tile:hover{box-shadow:7px 7px 6px 6px #999;}
+.tile-content{padding:5px;}
+.thumb-img-div{margin:2px;}
+img.thumb-img{margin-left:40%;}
+.tile-title{font-size:22px;color:#000;padding:5px 0;}
+.tile-title:hover{color:#24a3d8;}
+.title-desc{font-size:15px;color:#000;}
+.tile-title p,.tile-desc p{text-align:center;margin:10px 0;}
+
+@media only screen and (max-width: 1000px) and (min-width: 769px){
+.icon-div img{width:100%;}
+.contact-div{width:100%}
+.contact-block__inner{width:90%;margin:0 auto;}
+.contact-block__item{width:30%;color:#000;font-size:18px;}
+.tile{width:50%;float:left;min-height:200px;}
+}
+@media only screen and (max-width: 768px){
+.icon-div{width:100%;}
+.contact-div{width:100%}
+.contact-block__inner{width:80%;margin:0 auto;}
+.contact-block__item{width:100%;color:#000;font-size:18px;}
+.tile{width:90%;float:left;min-height:200px;}
+}
+.img-text { top: 300px; color: #000; margin: 0; padding: 9px 14px 19px 10px; position: absolute; left: 25px; width: 295px;}
+.img-text h3 {color: #000; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase;font-size:20px}
+.img-text p {margin: 0 0 15px;}
+
+.img-button{
+	display:inline;
+}
+.img-button button{
+
+	background:#24a3d8;border-radius:25px;color:#fff;font-weight:600;
+}
+.img-button button:hover{
+	
+	background:transparent;border-radius:25px;color:#000;border:1px solid #000;font-weight:600;
+}
